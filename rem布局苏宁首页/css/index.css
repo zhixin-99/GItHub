@@ -1,0 +1,391 @@
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 390px) {
+  html {
+    font-size: 26px;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 426px) {
+  html {
+    font-size: 28.4px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+  body {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+  body {
+    font-size: 18px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img,
+input {
+  vertical-align: middle;
+}
+img,
+a {
+  -webkit-touch-callout: none;
+}
+li {
+  list-style-type: none;
+}
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  background: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  color: #333;
+  height: 2000px;
+}
+.sn-nav {
+	background: -webkit-linear-gradient(top,#E15375,#F2F2F2);
+}
+.content {
+	display: -webkit-flex;
+	width: 13.64rem;
+	height: 1.76rem;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .fenlei {
+	width: 0.72rem;
+	height: 1.2rem;
+}
+.content .fenlei img {
+	width: 100%;
+	height: 100%;
+}
+.middle-style img {
+	width: 7.8rem;
+	height: 1.52rem;
+}
+.login {
+	width: 0.72rem;
+	height: 1.2rem;
+}
+.login img{
+	width: 100%;
+	height: 100%;
+}
+.search {
+	display: -webkit-flex;
+	align-items: center;
+	width: 13.64rem;
+	height: 1.76rem;
+	margin: 0 auto;
+}
+.search .search-input{
+	flex: 1;
+	display: -webkit-flex;
+	align-items: center;
+	height: 1.32rem;
+	border-radius: 0.6rem;
+	background-color: #f7f7f7;
+}
+.search .search-input::before{
+	content: '';
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	margin:0 0.2rem 0 0.4rem;
+	background: url(../img/sousuo.png) no-repeat;
+	background-size: 0.72rem 0.72rem;
+}
+.search-input span {
+	color: #999;
+}
+.banner-bg {
+	overflow: hidden;
+	position: relative;
+	width: 13.64rem;
+	height: 7.36rem;
+	margin: 0 auto;
+	background: #fff;
+	border-radius:  0.4rem 0.4rem 1rem 1rem;
+	
+}
+.banner-bg .shuang12{
+	position: absolute;
+	left: 0.48rem;
+	top: 0;
+	width: 3.6rem;
+	height: 1rem;
+	z-index: 1;
+}
+ .banner-bg .shuang12 img{
+	width: 100%;
+	height: 100%;
+}
+.banner-bg .lunbo {
+	width: 900%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	
+}
+ .banner-bg ul li {
+	width: 13.64rem;
+	height: 7.36rem;
+	z-index: 999;
+	float: left;
+}
+.swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+.lunbo li img {
+	width: 100%;
+	height: 7.36rem;
+	border-radius:0.6rem;
+}
+.banner-bg .trigger-wrapper {
+	position: absolute;
+	bottom: 0.24rem;
+	width: 100%;
+	height: 0.16rem;
+	font-size: 0;
+	display: -webkit-flex;
+	justify-content: center;
+
+}
+ .trigger li {
+	float: left;
+	width: 0.36rem;
+	height: 0.16rem;
+	margin: 0 0.08rem;
+	border-radius: 0.06rem;
+	text-align: center;
+}
+ .trigger li i{
+	text-align: center;
+	display: inline-block;
+	width: 0.18rem;
+	height: 0.16rem;
+	border-radius: 0.16rem;
+	background: rgba(0, 0, 0, 0.3);
+	transition: width .2s;
+}
+.currtent {
+	background-color: #fff;
+}
+.trigger li i.disp {
+	display: none;
+}
+.kuanghuan {
+	display: -webkit-flex;
+	width: 15rem;
+	height: 5.193rem;
+}
+.kuanghuan a{
+	flex: 1;
+	height: 100%;
+}
+.kuanghuan a img {
+	width: 100%;
+	height: 100%;
+}
+.nav .nav-items {
+	width: 15rem;
+	height: 5.68rem;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	
+}
+.nav-items li {
+	width: 20%;
+	height: 50%;
+
+}
+.nav-items li a {
+	display: -webkit-flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-icon {
+	margin-top: 0.6rem;
+	width: 1.68rem;
+	height: 1.68rem;
+}
+.nav-icon img {
+	width: 100%;
+	height: 100%;
+}
+
+}
+.title {
+	line-height: 0.56rem;
+	height: 0.56rem;
+	color: #666666;
+	margin-top: 0.1rem;
+	overflow: hidden;
+}
+.newImgFloor {
+	display: -webkit-flex;
+	width: 15rem;
+	height: 4.68rem;
+	margin-top: 1rem;
+}
+.newImgFloor a:nth-child(1) {
+	flex: 2;
+}
+.newImgFloor a:nth-child(n+2){
+	flex: 1;
+}
+.newImgFloor .newitem img{
+	width: 100%;
+	height: 100%;
+}
+.newImgFloor a:nth-child(1) img {
+	width: 7.5rem;
+	height: 4.68rem;
+}
+.newImgFloor a:nth-child(n+2) img{
+	width: 3.74rem;
+	height: 4.68rem;
+}
+.newImgFloor .newitem:nth-child(2){
+	margin-right: 0.04rem;
+}
+.title1 {
+	display: -webkit-flex;
+	width: 15rem;
+	height: 1.16rem;
+}
+.title1 .title-wrapper {
+	flex: 1;
+	width: 7.5rem;
+	height: 1.16rem;
+	
+}
+
+.msha {
+	float: left;
+	z-index: 1;
+	font-weight: 700;
+	font-size: .56rem;
+	letter-spacing: 0;
+	line-height: .8rem;
+	overflow: hidden;
+	max-width: 3.5rem;
+	color: #333333;
+	margin: 0.36rem 0.16rem 0 0.48rem;
+}
+.count {
+	float: left;
+	margin-top: 0.45rem;
+	height: 0.8rem;
+	font-size: .4rem;
+	font-weight: 700;
+}
+.count span {
+	font-size: .4rem;
+	color: #333;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.05rem;
+	width: 0.68rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	text-align: center;
+	background: #ffcc00;
+	border-radius: 0.18rem;
+	font-weight: bold;
+}
